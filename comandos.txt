@@ -1,1 +1,3 @@
 yarn init -y : Esse comando cria o arquivo package.json com alguns comandos/padrões pré definidos.
+
+yarn add express : Inseri o express no projeto
