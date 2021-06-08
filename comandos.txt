@@ -7,3 +7,4 @@ yarn add nodemon -D : Nodemon é responsável de efetuar o reload da aplicação
 Tipos de parâmetros:
 	Route Params => Identificar um recurso editar/deletar/buscar
 	Query Params => Paginação / Filtro
+	Body Params => Objetos de inserção/alteração (JSON)
