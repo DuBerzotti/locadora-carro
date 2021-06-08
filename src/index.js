@@ -12,6 +12,11 @@ app.post("/courses", (request, response) => {
 });
 
 app.put("/courses/:id", (request, response) => {
+
+    const {id} = request.params;
+
+    console.log(id);
+
     return response.json(["Curso 6", "Curso 2", "Curso 3", "Curso 4"]);
 });
 
