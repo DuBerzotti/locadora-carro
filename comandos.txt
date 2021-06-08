@@ -1,3 +1,5 @@
 yarn init -y : Esse comando cria o arquivo package.json com alguns comandos/padrões pré definidos.
 
-yarn add express : Inseri o express no projeto
+yarn add express : Inseri o express no projeto e suas dependencias.
+
+yarn add nodemon -D : Nodemon é responsável de efetuar o reload da aplicação cada vez que uma alteração é efetuada para que elas reflitam no cliente.
