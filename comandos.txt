@@ -8,3 +8,5 @@ Tipos de parâmetros:
 	Route Params => Identificar um recurso editar/deletar/buscar
 	Query Params => Paginação / Filtro
 	Body Params => Objetos de inserção/alteração (JSON)
+
+yarn add uuid : Identificador único universal
