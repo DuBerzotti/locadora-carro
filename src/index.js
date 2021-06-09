@@ -31,13 +31,13 @@ app.post("/account", (request, response) => {
 
 });
 
-app.get("/courses", (request, response) => {
+app.get("/statement/:cpf", (request, response) => {
 
-    const query = request.query;
+    const {cpf} = request.params;
 
-    console.log(query);
+    const customer = customers.find((customer) => customer.cpf === cpf);
 
-    return response.json(["Curso 1", "Curso 2", "Curso 3"]);
+    return response.json(customer.statement);
 });
 
 app.put("/courses/:id", (request, response) => {
