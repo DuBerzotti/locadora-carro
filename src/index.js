@@ -106,8 +106,19 @@ app.post("/withdraw", verifyIfExistsAccountCPF, (request, response) => {
     return response.status(200).send();
 });
 
-app.patch("/courses/:id", (request, response) => {
-    return response.json(["Curso 6", "Curso 7", "Curso 3", "Curso 4"]);
+app.get("/statement/date", verifyIfExistsAccountCPF, (request, response) => {
+    const { customer } = request;
+    const { date } = request.query;
+
+    const dateFormat = new Date(date + " 00:00");
+
+    const statement = customer.statement.filter(
+        (statement) => 
+        statement.created_at.toDateString() 
+        === new Date(dateFormat).toDateString()
+    );
+
+    return response.json(statement);
 });
 
 app.delete("/courses/:id", (request, response) => {
