@@ -10,3 +10,12 @@ Tipos de parâmetros:
 	Body Params => Objetos de inserção/alteração (JSON)
 
 yarn add uuid : Identificador único universal
+
+Dependencias Typescript:
+
+yarn add typescript -D
+
+yarn add @types/express -D
+
+Precisamos iniciar o typescript:
+	yarn tsc --init
