@@ -19,3 +19,6 @@ yarn add @types/express -D
 
 Precisamos iniciar o typescript:
 	yarn tsc --init
+
+Essa biblioteca nos ajuda a rodar nosso serviço sem necessitar fazer a conversão do typescript para javascript manualmente:
+	yarn add ts-node-dev -D
