@@ -2,7 +2,7 @@
 
 interface Course {
     name: string;
-    duration:number;
+    duration?:number; //Atributo opcional
      educator: string;
 }
 
