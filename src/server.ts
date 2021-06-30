@@ -1,8 +1,10 @@
 import express, { request } from 'express';
-import { CreateCourse } from './routes';
+import {categoriesRoutes} from './Routes/categories.routes';
 
 const app = express();
 
-app.get("/", CreateCourse);
+app.use(express.json());
+
+app.use(categoriesRoutes);
 
 app.listen(3333, () => console.log("Server is running!"));
