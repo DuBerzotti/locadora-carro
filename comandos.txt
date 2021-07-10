@@ -9,7 +9,7 @@ Tipos de parâmetros:
 	Query Params => Paginação / Filtro
 	Body Params => Objetos de inserção/alteração (JSON)
 
-yarn add uuid : Identificador único universal
+yarn add uuid : Identificador único universal.
 
 Dependencias Typescript:
 
