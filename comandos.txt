@@ -22,3 +22,6 @@ Precisamos iniciar o typescript:
 
 Essa biblioteca nos ajuda a rodar nosso serviço sem necessitar fazer a conversão do typescript para javascript manualmente:
 	yarn add ts-node-dev -D
+
+
+yarn add multer - Biblioteca de upload de arquivo
