@@ -27,3 +27,5 @@ Essa biblioteca nos ajuda a rodar nosso serviço sem necessitar fazer a convers�
 yarn add multer - Biblioteca de upload de arquivo
 
 yarn add csv-parse - Permite realizar a leitura dos nossos arquivos
+
+yarn add swagger-ui-express - Biblioteca de documentação de rotas
