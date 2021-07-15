@@ -35,3 +35,9 @@ docker build -t rentx . - Criar imagem no docker
 docker run -p 3333:3333 rentx - Rodando a aplicação no docker
 
 docker exec -it docker-name /bin/bash - Acessar o container
+
+docker-compose up - Inicia o docker compose
+
+docker-compose up -d - Inicia o docker compose em segundo plano
+  
+docker logs rentx -f - Verifica logs no docker da aplicação
