@@ -30,14 +30,31 @@ yarn add csv-parse - Permite realizar a leitura dos nossos arquivos
 
 yarn add swagger-ui-express - Biblioteca de documentação de rotas
 
+
+------- COMANDOS DOCKER -------
+
 docker build -t rentx . - Criar imagem no docker
 
 docker run -p 3333:3333 rentx - Rodando a aplicação no docker
 
+docker logs rentx -f - Verifica logs no docker da aplicação
+
+docker ps - Mostra todos os containers online
+
+docker ps -a - Mostra todos os containers
+
+docker rm (id ou nome do container) - Remove o container, P.S.: Tem que estar parado o container.
+
+docker start (id ou nome do container) - Inicia o container
+
+docker stop (id ou nome do container) - Para o container
+
 docker exec -it docker-name /bin/bash - Acessar o container
 
-docker-compose up - Inicia o docker compose
+docker-compose up OU docker-compose start - Inicia o docker compose
+
+docker-compose stop - Para o docker compose
+
+docker-compose down - Remover o docker compose com os serviços ***ATENÇÃO***
 
 docker-compose up -d - Inicia o docker compose em segundo plano
-  
-docker logs rentx -f - Verifica logs no docker da aplicação
