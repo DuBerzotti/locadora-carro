@@ -30,6 +30,14 @@ yarn add csv-parse - Permite realizar a leitura dos nossos arquivos
 
 yarn add swagger-ui-express - Biblioteca de documentação de rotas
 
+------- COMANDOS MIGRATIONS -------
+
+yarn typeorm migrations:create -n NomeMigrations : Cria uma nova migrations
+
+yarn typeorm migration:run : Roda as migrations
+
+yarn typeorm migration:revert : Reverte a criação das migrations
+
 
 ------- COMANDOS DOCKER -------
 
