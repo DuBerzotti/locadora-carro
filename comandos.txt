@@ -30,6 +30,8 @@ yarn add csv-parse - Permite realizar a leitura dos nossos arquivos
 
 yarn add swagger-ui-express - Biblioteca de documentação de rotas
 
+yarn add bcryptjs - Biblioteca criptografia de senha
+
 ------- COMANDOS MIGRATIONS -------
 
 yarn typeorm migrations:create -n NomeMigrations : Cria uma nova migrations
