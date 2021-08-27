@@ -34,6 +34,8 @@ yarn add bcryptjs - Biblioteca criptografia de senha
 
 yarn add jsonwebtoken - Biblioteca de geração de token
 
+yarn add express-async-errors - Biblioteca de manipulação de erros na aplicação
+
 ------- COMANDOS MIGRATIONS -------
 
 yarn typeorm migrations:create -n NomeMigrations : Cria uma nova migrations
