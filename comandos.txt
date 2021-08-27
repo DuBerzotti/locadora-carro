@@ -32,6 +32,8 @@ yarn add swagger-ui-express - Biblioteca de documentação de rotas
 
 yarn add bcryptjs - Biblioteca criptografia de senha
 
+yarn add jsonwebtoken - Biblioteca de geração de token
+
 ------- COMANDOS MIGRATIONS -------
 
 yarn typeorm migrations:create -n NomeMigrations : Cria uma nova migrations
