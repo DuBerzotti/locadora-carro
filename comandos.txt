@@ -36,6 +36,14 @@ yarn add jsonwebtoken - Biblioteca de geração de token
 
 yarn add express-async-errors - Biblioteca de manipulação de erros na aplicação
 
+yarn add jest -D - Biblioteca de Testes
+
+yarn add @types/jest -D - Tipagem da Biblioteca
+
+yarn jest --init - Inicia o Jest na aplicação
+
+yarn add ts-jest -D - Instalação para trabalhar com typescrpt com jest
+
 ------- COMANDOS MIGRATIONS -------
 
 yarn typeorm migrations:create -n NomeMigrations : Cria uma nova migrations
