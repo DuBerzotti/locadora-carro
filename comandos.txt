@@ -44,6 +44,8 @@ yarn jest --init - Inicia o Jest na aplicação
 
 yarn add ts-jest -D - Instalação para trabalhar com typescrpt com jest
 
+yarn add tsconfig-paths -D - Traduz as importações utilizando o "@"
+
 ------- COMANDOS MIGRATIONS -------
 
 yarn typeorm migrations:create -n NomeMigrations : Cria uma nova migrations
