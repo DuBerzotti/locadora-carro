@@ -1,5 +1,5 @@
 import {
-  Column, CreateDateColumn, Entity, JoinColumn, ManyToMany, PrimaryColumn,
+  Column, CreateDateColumn, Entity, JoinColumn, ManyToMany, PrimaryColumn, ManyToOne,
 } from 'typeorm';
 import { v4 as uuidV4 } from 'uuid';
 
@@ -31,7 +31,7 @@ class Car {
     @Column()
     brand: string;
 
-    @ManyToMany(() => Category)
+    @ManyToOne(() => Category)
     @JoinColumn({ name: 'category_id' })
     category: Category;
 
